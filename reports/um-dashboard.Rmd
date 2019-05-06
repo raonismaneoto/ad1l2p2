@@ -31,7 +31,6 @@ Column {data-width=650}
 
 ### Parte 1
 
-## Aqui poderia analisar qual a média de diversidade por região.
 
 ```{r}
 regioes = bind_rows(
@@ -98,7 +97,8 @@ Column {data-width=350}
 -----------------------------------------------------------------------
 
 ### Parte 2
-## Aqui poderia analisar a média de conteúdo útil pra prática
+
+
 ```{r}
 cursos %>% 
     ggplot(aes(x = UF, y = media)) + 
@@ -128,9 +128,11 @@ ggplotly(p)
 
 
 ```
+Column {data-width=350}
+-----------------------------------------------------------------------
 
 ### Parte 3
-## Aqui a média por UF de pensamento crítico
+
 
 ```{r}
 cursos %>% 

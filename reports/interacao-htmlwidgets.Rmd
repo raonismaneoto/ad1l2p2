@@ -58,4 +58,3 @@ plot_ly(data = pb_pe %>% filter(categoria != "Outros"),
         color = ~UF, 
         text = ~IES)
 ```
-
